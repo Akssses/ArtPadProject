@@ -1,0 +1,163 @@
+.team_card {
+    padding: 60px;
+    background: #0E0E0E;
+    border: 2px solid #CD3ED0;
+    border-radius: 10px;
+   
+    margin-top: 40px;
+    display: flex;
+    margin-right: 30px;
+}
+
+.team_card img {
+    background: rgba(206, 62, 208, 0.353);
+    border-radius: 10px;
+    padding: 35px 30px 0 30px;
+}
+
+.team_card_text {
+    margin-left: 30px;
+}
+
+.text_h {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.team_card_text .text_h p{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    color: #CD3ED0;
+    padding: 12px 16px;
+    background: rgba(205, 62, 208, 0.1);
+    border: 2px solid #CD3ED0;
+    border-radius: 10px;
+}
+
+.progressbar h1 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    background: linear-gradient(90deg, #CD3ED0 14.1%, #6B1495 144.51%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.progressbar p {
+    margin-top: 24px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    background: linear-gradient(90deg, #CD3ED0 14.1%, #6B1495 144.51%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.progressing {
+    background: linear-gradient(90deg, #CD3ED0 14.1%, #6B1495 144.51%);
+    border-radius: 4px 0px 0px 4px;
+    width: 50px;
+    height: 12px;  
+}
+ .progress {
+    width: 305px;
+    height: 12px;
+    background: #D9D9D9;
+    opacity: 0.1;
+    border-radius: 0px 4px 4px 0px;
+}
+
+.progressbar div {
+    display: flex;
+    align-items: center
+}
+
+.ref_text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    opacity: 0.5;
+    margin-top: 35px;
+}
+
+.team_block {
+    display: flex;
+    align-items: center;
+}
+
+.right_card div{
+    padding: 30px;
+    background: #0E0E0E;
+    border: 2px solid #CD3ED0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    transform: translateY(25px);
+}
+
+
+@media (max-width: 1500px) {
+    .team_block {
+        display: block;
+    }
+
+    .team_card {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 900px) {
+    .team_card {
+        display: block;
+        padding: 30px;
+    }
+
+    .team_card_text {
+        margin-left: 0px;
+    }
+
+    .team_card img {
+        margin: 0 auto;
+    }
+
+    .text_h {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 600px) {
+    .progress {
+        width: 200px;
+        justify-content: center;
+    }
+
+    .progressbar div {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 460px) {
+    .text_h {
+        display: block;
+    }
+
+    .text_h h1 {
+        margin-bottom: 24px;
+    }
+
+    .progress {
+        width: 100px;
+    }
+
+    .right_card div {
+        display: block;
+    }
+}
+

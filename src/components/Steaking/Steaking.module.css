@@ -1,0 +1,88 @@
+.balance_block {
+    padding: 38px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #0E0E0EB2;
+    color: #434343;
+    min-width: 39.286vw;
+    margin-top: 40px;
+    border-radius: 10px;
+    border: 2px solid #CD3ED0;
+}
+
+.balance_blocks {
+    display: flex;
+    gap: 40px;
+}
+
+.balance_block h1 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.balance_button {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.balance_button h2 {
+    background: #434343;
+    border-radius: 4px;
+    align-items: center;
+    padding: 8px 24px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #fff;
+    opacity: 0.6;
+}
+
+.balance_button h3 {
+    font-size: 24px;
+    line-height: 28px;
+    color: #fff;
+    opacity: 0.5;
+}
+
+.button {
+    background: #5B1C5C;
+    border-radius: 4px;
+    padding: 8px 24px;
+    color: #FFFFFF;
+    margin-top: 28px;
+    opacity: 0.6;
+    float: right;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background: #CD3ED0;
+    color: #fff;
+    opacity: 1;
+}
+
+@media (max-width: 1200px) {
+    .balance_blocks {
+        display: block;
+    }
+
+    .button {
+        float: none;
+    }
+}
+
+@media (max-width: 550px) {
+    .button {
+        width: 100%;
+    }
+
+    .balance_block {
+        display: block;
+    }
+
+    .balance_button {
+        margin-top: 30px;
+    }
+}

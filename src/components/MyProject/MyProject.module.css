@@ -1,0 +1,57 @@
+.project_bar {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 40px;
+    padding: 0 18px;
+    text-align: center;
+}
+
+.project_bar h1 {
+    min-width: 150px;
+}
+
+.project_block {
+    overflow: auto;
+}
+
+.project_tx {
+    border: 2px solid #CD3ED0;
+    display: flex;
+    justify-content: space-between;
+    padding: 18px;
+    background: #0E0E0E;
+    border-radius: 10px;
+    margin-top: 18px;
+    text-align: center;
+    min-width: 1085px;
+}
+
+.project_tx span {
+    margin-right: 5px;
+}
+
+.project_tx h1 {
+    font-size: 18px;
+    min-width: 150px;
+}
+
+.project_tx h1:last-child {
+    text-decoration-line: underline;
+    font-size: 18px;
+    color: #CD3ED0;
+    cursor: pointer;
+}
+
+.scrollableContainer {
+    position: relative;
+}
+
+.list {
+  overflow-x: auto;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}

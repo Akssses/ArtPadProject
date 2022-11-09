@@ -1,0 +1,138 @@
+.seor_button button {
+    margin-top: 50px;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+    transition: 0.4s;
+}
+
+.seor_button button:hover {
+    border: 1px solid #CD3ED0;
+    color: #CD3ED0;
+}
+
+.rgroup {
+    display: none;
+}
+
+.main_block {
+    margin-top: 60px;
+    display: flex;
+    gap: 40px;
+}
+
+.first_block {
+    background: rgba(14, 14, 14, 0.7);
+    border: 2px solid #CD3ED0;
+    border-radius: 10px;
+    padding: 32px;
+    max-width: 440px;
+    max-height: 480px;
+    margin-bottom: 40px;
+}
+
+.line {
+    background: #FFFFFF;
+    opacity: 0.3;
+    width: 381px;
+    height: 2px;
+    margin-bottom: 30px;
+}
+
+.second_block {
+    background: rgba(14, 14, 14, 0.7);
+    border: 2px solid #CD3ED0;
+    border-radius: 10px;
+    padding: 32px;
+    margin-bottom: 40px;
+}
+
+.b2_text {
+    padding: 20px;
+    background: rgba(205, 62, 208, 0.1);
+    border: 2px solid #CD3ED0;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.block_3 {
+    background: rgba(14, 14, 14, 0.7);
+    border: 2px solid #CD3ED0;
+    border-radius: 10px;
+    padding: 32px;
+    margin-bottom: 40px;
+}
+
+.time_block {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+
+.timer {
+    display: inline-flex;
+    gap: 34px;
+
+}
+
+@media (max-width: 1150px) {
+    .main_block {
+        display: block;
+    }
+}
+
+@media (max-width: 900px) {
+    .group {
+        display: none;
+    }
+    .rgroup {
+        display: block;
+    }
+}
+
+@media (max-width: 800px) {
+    .time_block {
+        display: block;
+    }
+
+     .time {
+        padding-top: 40px;
+        text-align: center;
+    }
+
+    .timer {
+        
+    }
+}
+
+@media (max-width: 485px) {
+    .line {
+        width: 100%;
+    }
+
+    .first_block {
+        padding: 20px;
+    }
+
+    .first_block h1 {
+        font-size: 15px;
+    }
+
+    .first_block p {
+        font-size: 15px;
+    }
+
+    .second_block {
+        padding: 20px;
+    }
+
+    .block_3 {
+        padding: 20px;
+    }
+
+    .timer {
+        gap: 20px;
+    }
+}
